@@ -4,7 +4,7 @@ const typeDefs = require("./graphql/typeDefs");
 const resolvers = require("./graphql/resolvers/resolvers");
 const { decodeToken } = require("./utils/tokenUtils");
 const MONGODB =
-"mongodb+srv://mohnish:82L.e@F9bY834uh@cluster1.nizsbfo.mongodb.net/googlebooks"
+  "mongodb+srv://mohnish:mohnish1234@cluster1.nizsbfo.mongodb.net/googlebooks?retryWrites=true&w=majority";
 
 const server = new ApolloServer({
   typeDefs,
