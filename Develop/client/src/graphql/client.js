@@ -5,7 +5,7 @@ import {
   InMemoryCache,
 } from "@apollo/client";
 
-const httpLink = new HttpLink({ uri: "http://localhost:5000/" });
+const httpLink = new HttpLink({ uri: "https://book-search-90qi.onrender.com/" });
 
 const authLink = new ApolloLink((operation, forward) => {
   const token = localStorage.getItem("id_token");
